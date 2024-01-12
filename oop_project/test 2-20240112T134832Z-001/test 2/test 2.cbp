@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="test 2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="../test 2" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/test 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="../test 2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/delete_employee.h" />
+		<Unit filename="include/employee.h" />
+		<Unit filename="include/salery.h" />
+		<Unit filename="include/search_employee.h" />
+		<Unit filename="include/show_employee.h" />
+		<Unit filename="include/update_employee.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/delete_employee.cpp" />
+		<Unit filename="src/employee.cpp" />
+		<Unit filename="src/salery.cpp" />
+		<Unit filename="src/search_employee.cpp" />
+		<Unit filename="src/show_employee.cpp" />
+		<Unit filename="src/update_employee.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
